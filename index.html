@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Biblioteca</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sistema de Gerenciamento de Biblioteca</h1>
+
+<section>
+<h2>Cadastrar Livro</h2>
+
+<input type="number" id="livro-id" placeholder="ID">
+<input type="text" id="livro-titulo" placeholder="Título">
+<input type="text" id="livro-autor" placeholder="Autor">
+<input type="text" id="livro-categoria" placeholder="Categoria">
+
+<button id="btn-livro">
+Cadastrar Livro
+</button>
+</section>
+
+<section>
+<h2>Cadastrar Usuário</h2>
+
+<input type="number" id="usuario-id" placeholder="ID">
+<input type="text" id="usuario-nome" placeholder="Nome">
+<input type="number" id="usuario-matricula" placeholder="Matrícula">
+
+<button id="btn-usuario">
+Cadastrar Usuário
+</button>
+</section>
+
+<section>
+<h2>Realizar Empréstimo</h2>
+
+<input type="number" id="emprestimo-id" placeholder="ID Empréstimo">
+
+<input type="number" id="emprestimo-livro"
+placeholder="ID Livro">
+
+<input type="number" id="emprestimo-usuario"
+placeholder="ID Usuário">
+
+<input type="date" id="data-prevista">
+
+<button id="btn-emprestimo">
+Registrar Empréstimo
+</button>
+</section>
+
+<section>
+<h2>Registrar Devolução</h2>
+
+<input type="number"
+id="devolucao-id"
+placeholder="ID Empréstimo">
+
+<button id="btn-devolucao">
+Registrar Devolução
+</button>
+</section>
+
+<section>
+<h2>Livros</h2>
+<div id="lista-livros"></div>
+</section>
+
+<section>
+<h2>Usuários</h2>
+<div id="lista-usuarios"></div>
+</section>
+
+<section>
+<h2>Empréstimos</h2>
+<div id="lista-emprestimos"></div>
+</section>
+
+<script type="module" src="index.js"></script>
+
+<section>
+    <h2>Empréstimos</h2>
+    <div id="lista-emprestimos"></div>
+</section>
+
+<section>
+    <h2>Relatório de Multas</h2>
+    <div id="relatorio-multas"></div>
+</section>
+
+<script type="module" src="index.js"></script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
+

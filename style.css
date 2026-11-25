@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f172a;
+    color:#e2e8f0;
+    font-family:'Segoe UI', sans-serif;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    color:#38bdf8;
+    text-shadow:0 0 10px #38bdf8;
+}
+
+section{
+    background:#1e293b;
+    border:1px solid #334155;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:25px;
+    box-shadow:0 0 15px rgba(56,189,248,0.15);
+}
+
+h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+    border-left:4px solid #38bdf8;
+    padding-left:10px;
+}
+
+input{
+    background:#0f172a;
+    border:1px solid #475569;
+    color:white;
+    padding:10px;
+    margin:5px;
+    border-radius:6px;
+    min-width:150px;
+}
+
+input:focus{
+    outline:none;
+    border-color:#38bdf8;
+    box-shadow:0 0 8px #38bdf8;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#3b82f6;
+    transform:translateY(-2px);
+    box-shadow:0 0 10px #3b82f6;
+}
+
+#lista-livros p,
+#lista-usuarios p,
+#lista-emprestimos p,
+#relatorio-multas p{
+    background:#0f172a;
+    border-left:4px solid #22c55e;
+    padding:12px;
+    margin-top:8px;
+    border-radius:5px;
+}
+
+#relatorio-multas{
+    color:#fca5a5;
+}
+
+#relatorio-multas h3{
+    color:#ef4444;
+    margin-top:15px;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #475569;
+    margin:15px 0;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#38bdf8;
+    border-radius:10px;
+}
+
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    color:#38bdf8;
+    text-shadow:0 0 10px #38bdf8;
+}
+
+input{
+    width:220px;
+}
+
+#relatorio-multas{
+    border:1px solid #ef4444;
+    padding:15px;
+    border-radius:8px;
+    background:#1a0f0f;
+}
+
